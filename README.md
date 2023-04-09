@@ -20,7 +20,11 @@ We see that the selected dataset consists of 35 columns with various characteris
 
 First of all, we separate categorical variables from quantitative ones in order to apply Label encoding to categorical variables later on at the preprocessing stage. 
 This method will allow us to convert text variables into numbers in order to further apply various methods of model training to our data. 
- 
+
+<br/>
+<img src="https://imgur.com/O7avRz9.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<br />
+
 In order to determine the level of correlation between variables, we need to build an appropriate correlation matrix of parameters. 
 This correlation matrix shows that the most dependent variables are <b>JobLevel</b> and <b>TotalWorkingYears</b>, as well as the variables <b>TotalWorkingYears</b> and <b>MonthlyIncome</b>. 
 It is clear that the graph also reflects absolutely logical parameter dependencies, for example, the dependence of the <b>Age</b> parameter and <b>TotalWorkingYears</b>. 
@@ -37,7 +41,10 @@ This is exactly our case, because we see that the number of people who do not ha
 
 After conducting Explanatory data analysis and Preprocessing, we apply the Logistic Regression, Random Forest Classifier and XGB Classifier models to our data in order to determine the best indicator of the applied models. 
 It will be most convenient to display the results of using models in the form of Confusion matrices, with the help of which the hit of the model on the test sample is clearly visible compared to the training sample. 
- 
+
+<br/>
+<img src="https://imgur.com/rrwd2H5.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<br />
 ### Result: 
 
 Based on the results of using models, we see that the <b>XGB Classifier model</b> with the accuracy of 0.93 on the test sample has the highest accuracy. 
