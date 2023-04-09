@@ -45,6 +45,7 @@ It will be most convenient to display the results of using models in the form of
 <br/>
 <img src="https://imgur.com/rrwd2H5.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <br />
+
 ### Result: 
 
 Based on the results of using models, we see that the <b>XGB Classifier model</b> with the accuracy of 0.93 on the test sample has the highest accuracy. 
