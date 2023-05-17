@@ -22,8 +22,8 @@ First of all, we separate categorical variables from quantitative ones in order 
 This method will allow us to convert text variables into numbers in order to further apply various methods of model training to our data. 
 
 <br/>
-<img src="https://imgur.com/O7avRz9.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-<br />
+<!-- <img src="https://imgur.com/O7avRz9.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<br /> -->
 
 In order to determine the level of correlation between variables, we need to build an appropriate correlation matrix of parameters. 
 This correlation matrix shows that the most dependent variables are <b>JobLevel</b> and <b>TotalWorkingYears</b>, as well as the variables <b>TotalWorkingYears</b> and <b>MonthlyIncome</b>. 
@@ -43,8 +43,8 @@ After conducting Explanatory data analysis and Preprocessing, we apply the Logis
 It will be most convenient to display the results of using models in the form of Confusion matrices, with the help of which the hit of the model on the test sample is clearly visible compared to the training sample. 
 
 <br/>
-<img src="https://imgur.com/rrwd2H5.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-<br />
+<!-- <img src="https://imgur.com/rrwd2H5.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<br /> -->
 
 ### Result: 
 
